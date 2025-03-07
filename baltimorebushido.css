@@ -1,0 +1,40 @@
+body {
+    margin: unset;
+    background-color: black;
+    color: #fff;
+    /* background-image:url("./baltimore-bushido.jpeg");
+    background-repeat:repeat;
+    background-size: 200px */
+}
+
+#title {
+    padding:20px;
+    border-bottom: 2px solid #fff;
+    /* position: sticky;
+    top: 0;
+    background-color: #000 */
+}
+
+.title-text, .title-image {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 20px;
+    height: 100%
+}
+
+.grid-item {
+}
+
+iframe {
+    border-width: 0;
+    border-radius: 10px;
+}
+
+p {
+    color: hotpink;
+}
