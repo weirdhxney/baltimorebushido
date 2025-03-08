@@ -1,5 +1,16 @@
+html {
+    /* cursor: url("./katana.png"), auto; */
+    margin: 0;
+    height: 100%
+}
+
+a {
+    /* cursor: url("./katana.png"), auto; */
+}
+
 body {
-    margin: unset;
+    margin: 0;
+    height: 100%;
     background-color: black;
     color: #fff;
     /* background-image:url("./baltimore-bushido.jpeg");
