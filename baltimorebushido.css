@@ -18,6 +18,11 @@ body {
     background-size: 200px */
 }
 
+.socials a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
 #title {
     padding:20px;
     /* position: sticky;
