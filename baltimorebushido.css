@@ -19,17 +19,9 @@ body {
     vertical-align:middle;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 10px 20px;
-    height: 100%
-}
-
 #menu {
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
 }
 
 #menu a:hover {
@@ -37,13 +29,11 @@ body {
 }
 
 #menu a {
+    flex: 1;
     padding: 5px;
     border-radius: 5px;
     color: hotpink;
     text-decoration: none;
-}
-
-.grid-item {
 }
 
 iframe {
