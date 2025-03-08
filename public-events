@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=UTF-8>
+    <title>Baltimore Bushido</title>
+    <link rel=stylesheet type="text/css"
+          href="./baltimorebushido.css">
+  </head>
+  <body>
+    <div id=title align=center>
+      <img class=title-image
+           src="./baltimorebushido.jpg"
+           width=300>
+      <div class=title-text align=left>
+        <h1>Baltimore Bushido Anime Club</h1>
+        <p>Go outside and touch grass.</p>
+      </div>
+    <div id="menu">
+      <a href="./index.html">Home</a>
+      <a href="./public-events">Public events</a>
+      <a id="menu-item" href="./application">Apply now!</a>
+    </div>
+    </div>
+    <div align="center">
+      <h2>Public Events</h2>
+    </div>
+  </body>
+</html>
